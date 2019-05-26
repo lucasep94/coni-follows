@@ -47,7 +47,7 @@ class FollowerList extends Component {
         //first: 100
         let params = {
             direction: 'asc',  
-            limit: 5
+            limit: 25
         }
         params.cursor = this.state.lastPage !== '' ? this.state.lastPage : '';        
         //'https://api.twitch.tv/helix/users/follows'
