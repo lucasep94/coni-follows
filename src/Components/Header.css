@@ -1,0 +1,20 @@
+li {
+	list-style-type: none;
+	float: left;
+	width: 150px;
+	margin: 5px;
+	border-radius: 2px;
+}
+
+li.active {
+	background: rgba(186, 186, 186, 0.26);
+}
+
+li:hover {
+	background: rgba(186, 186, 186, 0.26);
+}
+
+ul {
+	padding: 5px;		
+	background-color: #282c34;
+}

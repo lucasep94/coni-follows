@@ -1,0 +1,40 @@
+.follower-item {        
+    display: flex;
+    border-radius: 8px;
+    border: 1px solid rgb(255, 255, 255) !important;
+    height: 120px;
+    width: 320px;
+    margin: 15px;        
+    padding: 15px;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    background-image: url('../../assets/small.jpg');  
+}
+
+.follower-item .cono-logo {
+    height: 50px;
+    width: 75px;    
+    position: relative;
+    top: 35px;
+    background-position: left; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */    
+    background-image: url('../../assets/cono_0.png');  
+}
+
+.follower-item .detail {
+    display: flex;
+    flex-flow: column;    
+    padding: 5px;
+    width: 100%;
+    align-items: center;
+    line-height: 50px;
+}
+
+.follower-name {
+    display: block;    
+    font-size: 24px;
+}
+.follower-date {
+    display: block;    
+}
